@@ -27,8 +27,8 @@ img {
     padding: 0 1rem;
   }
 
-  .container h1 {
-    font-size: 3.5rem;
+  .container .title {
+    font-size: 1.5rem;
     margin: 3rem 0;
     letter-spacing: 2px;
     color: #ed1b76;
@@ -47,7 +47,26 @@ img {
       margin-bottom: 2rem;
   }
 
+  .btn-div {
+    margin-top: 10%;
+  }
   
+  .btn-div .btn {
+    outline: 0;
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: #fff;
+  }
+  .btn-div .btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  
+  .btn-div .btn {
+    background-color: #a11e1e;
+    border: 1px solid #4b1313;
+  }
+    
 @media screen and (min-width: 700px) {
     .container {
       width: 60%;
